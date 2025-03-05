@@ -1,0 +1,95 @@
+body{
+    background-color: whitesmoke;
+}
+.fb-container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2%;
+}
+.facebook{
+    flex: 1;
+    max-width: 400px;
+}
+.fb-connect{
+    font-family: sans-serif;
+    width: 60%
+}
+h1{
+    font-size: 50pt;
+    color: blue;
+    margin-bottom: 0%;
+}
+p{
+    font-size: 15pt;
+    color: black;
+    margin-top: 0%;
+}
+.login{
+    background-color: white;
+    height: 60%;
+    width: 120%;
+    color: teal;
+    right: 12%;
+    position: relative;
+}
+.btn{
+    background-color: blue;
+    color: whitesmoke;
+    height: 37px;
+    width: 95%;
+    border: 10px solid blue;
+    border-radius: 5px;
+    border-width: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.button{
+    background-color: #00ff3f;
+    color: white;
+    height: 42px;
+    width: 50%;
+    border: 10px solid #00ff3f;
+    border-radius: 5px;
+    border-width: 5px;
+    margin-left: 25%;
+}
+.submit{
+    position: relative;
+    left: 60px;
+    width: 100%;
+}
+input[type=email]{
+    width:93%;
+    height: 30px;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    margin-left: 8px;
+}
+input[type=password]{
+    width: 93%;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+}
+h3{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 18px;
+}
+.new-page{
+    margin-top:3%;
+    width: 99%; 
+    color: black;
+    font-size: 6px;
+    margin-left: 2%;
+}
+@media(max-width: 1250px) {
+    .fb-container {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
